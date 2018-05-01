@@ -88,7 +88,7 @@ if __name__ == '__main__':
     parser.add_argument('input_file', help='file from which sequence to be read. each line constitutes a new frame',
                         type=str)
     parser.add_argument('-o', '--output_file', help='the name of the file you would like to write to', default='piano.gif')
-    parser.add_argument('-f', '--framerate', help='frame rate in milliseconds', default=1000)
+    parser.add_argument('-f', '--framerate', help='frame rate in milliseconds', default=1000, type=int)
 
     args = parser.parse_args()
 
