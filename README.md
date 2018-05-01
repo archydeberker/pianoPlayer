@@ -36,3 +36,16 @@ Will use the example input file to create the example output GIF, with a framera
 ## Examples
 
 See [`pianoplayer/assets`](pianoplayer/assets) for an example of an input sequence file and the resulting GIF.
+
+Here's the kind of output you can expect:
+
+![Alt Text](pianoplayer/assets/example_piano_animation.gif)
+
+Which corresponds to the sequence of chords:
+
+```
+A2 B2 C2
+C#6 C#5 A#5
+```
+
+Disclaimer: this is not a nice chord progression!
