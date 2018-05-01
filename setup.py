@@ -8,6 +8,7 @@ setup(
     license='',
     author='archydeberker',
     author_email='archy.deberker@gmail.com',
-    description='',
+    description='Animate a piano to visualize sequences of notes',
+    install_requires=[open('requirements.txt').read()],
     include_package_data=True,
 )
