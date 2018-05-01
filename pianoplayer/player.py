@@ -2,12 +2,14 @@ import numpy as np
 import matplotlib.pyplot as plt
 import argparse
 import pickle
+from pianoplayer.constants import KEYMAP, PIANO
 
-def get_keymap()
+def get_keymap():
     return pickle.load(open(KEYMAP, 'rb'))
 
 def get_piano_image():
-    return
+    return plt.imread(PIANO)
+
 def reorder_chord(chord):
     """ Reorder so that all white notes are first."""
 

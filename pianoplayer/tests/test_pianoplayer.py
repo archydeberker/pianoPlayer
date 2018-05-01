@@ -10,7 +10,7 @@ def test_load_of_keymap():
 
 
 def test_load_of_piano_image():
-    img = plt.imread('assets/piano.jpg')
+    img = plt.imread(PIANO)
 
     assert len(img.shape) == 3
 
