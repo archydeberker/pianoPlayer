@@ -1,9 +1,7 @@
 import pickle
 import matplotlib.pyplot as plt
-from piano_player import play_chords
-
-PIANO = 'assets/piano.jpg'
-KEYMAP = 'assets/key_map.pkl'
+from pianoplayer.player import play_chords
+from pianoplayer.constants import KEYMAP, PIANO
 
 
 def test_load_of_keymap():
